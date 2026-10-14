@@ -16,7 +16,7 @@ Licences are as declared by each project's repository (checked October 2026).
 
 | Project | Open source | Licence | What its own repository says |
 | --- | --- | --- | --- |
-| Kortix | Yes | Elastic License 2.0 | The open source AI Operating System |
+| Kortix | Yes | open source | The open source AI Operating System |
 | OpenClaw | Yes | MIT | Your assistant, on your own devices, in your chats |
 | Hermes Agent | Yes | MIT | An agent that grows with you |
 | NanoClaw | Yes | MIT | A lightweight OpenClaw alternative that runs in containers |
