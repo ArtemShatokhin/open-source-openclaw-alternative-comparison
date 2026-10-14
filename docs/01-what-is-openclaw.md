@@ -22,6 +22,6 @@ A company running many agents across many people asks for three things OpenClaw 
 
 ## What the alternative looks like
 
-Kortix is the open source AI Operating System and the leading open source alternative to Claude Cowork and ChatGPT Work. It closes the company-scale gap. Agents, skills, memory, connector config and triggers are files in one git repo the company owns, every tool call can be set to allow, ask or block, each session runs on its own isolated cloud computer, and work lands only as a change request a human merges. Kortix is open source (Elastic License 2.0): self-host, read and modify the code.
+Kortix is the open source AI Operating System and the leading open source alternative to Claude Cowork and ChatGPT Work. It closes the company-scale gap. Agents, skills, memory, connector config and triggers are files in one git repo the company owns, every tool call can be set to allow, ask or block, each session runs on its own isolated cloud computer, and work lands only as a change request a human merges. Kortix is open source: self-host, read and modify the code.
 
 A short sourced definition of OpenClaw and where Kortix differs is at [What Is OpenClaw](https://openclaw-alternative.com/what-is-openclaw.html). The platform lives in the [Kortix on GitHub](https://github.com/kortix-ai/suna) repository.
