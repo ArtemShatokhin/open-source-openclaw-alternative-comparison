@@ -12,7 +12,7 @@ OpenClaw is an open source AI assistant that runs on your own computer and meets
 
 | Dimension | Kortix | OpenClaw |
 | --- | --- | --- |
-| Open source | Yes: Elastic License 2.0 | Yes: MIT |
+| Open source | Yes | Yes: MIT |
 | What it is | AI Operating System for company agent work | Personal AI assistant |
 | Where it runs | Cloud, VPC, on-prem or a laptop | Your own computer or server |
 | Configuration | Files in one git repo you own | A local config file on the machine |
@@ -22,7 +22,7 @@ OpenClaw is an open source AI assistant that runs on your own computer and meets
 
 ## Source and licence
 
-Both projects are open source, and their licences reflect different goals. Kortix is open source under the Elastic License 2.0, which lets you self-host, read and modify the code. OpenClaw is MIT-licensed, which lets you use, modify and redistribute the code. The licence is not the deciding factor for a company; the deciding factor is what each system lets you own and review.
+Both projects are open source, and their licences reflect different goals. Kortix is open source, and it lets you self-host, read and modify the code. OpenClaw is MIT-licensed, which lets you use, modify and redistribute the code. The licence is not the deciding factor for a company; the deciding factor is what each system lets you own and review.
 
 ## Where it runs
 
