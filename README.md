@@ -14,13 +14,13 @@ The gap opens with the size of the job. OpenClaw runs one assistant per machine,
 
 Kortix is the open source AI Operating System and the leading open source alternative to Claude Cowork and ChatGPT Work. Agents, skills, company memory, connector configuration and triggers are files in one git repo the company owns, so you can grep the whole company, diff any change and roll any part of it back. Every tool call can be set to allow, ask or block. 3,000+ apps and any MCP, OpenAPI, GraphQL or HTTP API are reachable through connectors whose credentials are brokered server-side and never enter the machine. The model is chosen per agent, per session or per message with your own key. Each session gets its own isolated Linux computer on its own branch, and work reaches the main branch only as a change request a human reads as a diff. Merge is default-deny for agents.
 
-Kortix is open source (Elastic License 2.0): self-host, read and modify the code. The platform lives in the [Kortix on GitHub](https://github.com/kortix-ai/suna) repository, and [Read the docs](https://kortix.com/docs) cover install, projects and self-hosting.
+Kortix is open source: self-host, read and modify the code. The platform lives in the [Kortix on GitHub](https://github.com/kortix-ai/suna) repository, and [Read the docs](https://kortix.com/docs) cover install, projects and self-hosting.
 
 ## Kortix vs OpenClaw at a glance
 
 | Dimension | Kortix | OpenClaw |
 | --- | --- | --- |
-| Open source | Yes: Elastic License 2.0. Self-host, read and modify the code | Yes: MIT |
+| Open source | Yes. Self-host, read and modify the code | Yes: MIT |
 | What it is | Open source AI Operating System for company agent work | Open source personal AI assistant |
 | Where it runs | Kortix Cloud, your VPC, on-prem or a laptop | Your own computer or server |
 | Configuration | Files in one git repo you own | One local config file on the machine |
@@ -32,6 +32,8 @@ Kortix is open source (Elastic License 2.0): self-host, read and modify the code
 
 For the head-to-head on scope, configuration and the review gate, read [Kortix vs OpenClaw](https://openclaw-alternative.com/kortix-vs-openclaw.html). For the wider field and how to choose one you can own, [the best open source OpenClaw alternatives](https://openclaw-alternative.com/openclaw-alternatives.html) ranks the options. To start from the definition, [What is OpenClaw](https://openclaw-alternative.com/what-is-openclaw.html) gives a short sourced account of OpenClaw and where Kortix differs. For the deployment path, [self-host an OpenClaw alternative](https://openclaw-alternative.com/self-host-openclaw-alternative.html) walks from the CLI install to a merged change request. If you already run OpenClaw, [migrate from OpenClaw](https://openclaw-alternative.com/migrate-from-openclaw.html) covers what carries over and what changes.
 
+
+Newer pages on the same site answer the adjacent questions: [OpenClaw vs Hermes](https://openclaw-alternative.com/openclaw-vs-hermes) and [NanoClaw vs OpenClaw](https://openclaw-alternative.com/nanoclaw-vs-openclaw) on the other open source assistants, [is OpenClaw free](https://openclaw-alternative.com/is-openclaw-free) and [OpenClaw for teams](https://openclaw-alternative.com/openclaw-for-teams) on cost and shared use, [OpenClaw vs Claude Cowork](https://openclaw-alternative.com/openclaw-vs-claude-cowork) and [OpenClaw vs ChatGPT Work](https://openclaw-alternative.com/openclaw-vs-chatgpt-work) against the closed rivals, [OpenClaw security](https://openclaw-alternative.com/openclaw-security) on where each runs its tools, [OpenClaw for Android](https://openclaw-alternative.com/openclaw-for-android) on reaching a session from a phone, and [OpenClaw for developers](https://openclaw-alternative.com/openclaw-for-developers) on the API and harness.
 ## Get started
 
 Self-host open source Kortix with one command:
