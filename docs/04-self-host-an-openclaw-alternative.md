@@ -6,11 +6,11 @@ Self-hosting an OpenClaw alternative means running the agent stack on hardware y
 
 A self-hosted Kortix instance is one Docker Compose stack: the frontend, the API, the LLM gateway and the Supabase distribution. The whole control plane is yours, covering accounts, projects, repos, secrets, connectors, policies and audit, on storage you back up yourself ([Read the docs](https://kortix.com/docs/host)).
 
-Agent sessions run on a separate sandbox provider, not on this stack. The default is Daytona, and Platinum and E2B are also supported. That split matters: the control plane and your data sit in your network, while session compute runs on managed sandboxes until you point it at your own provider.
+Agent sessions run on a separate sandbox provider, not on this stack. Platinum is the default, and Daytona remains available as a legacy fallback. That split matters: the control plane and your data sit in your network, while session compute runs on managed sandboxes until you point it at your own provider.
 
 ## Before the first command
 
-Four things are needed. A Linux box with 2 vCPU and 4 GB RAM as the floor, and 4 vCPU and 16 GB or more for real use. A domain you control, with an A or AAAA record for the domain and for `api.<domain>`, and ports 80 and 443 reachable so the bundled Caddy proxy can issue a TLS certificate. A sandbox provider key, such as Daytona. And an admin email, which becomes platform admin on first sign-up.
+Four things are needed. A Linux box with 2 vCPU and 4 GB RAM as the floor, and 4 vCPU and 16 GB or more for real use. A domain you control, with an A or AAAA record for the domain and for `api.<domain>`, and ports 80 and 443 reachable so the bundled Caddy proxy can issue a TLS certificate. A sandbox provider key, such as Platinum. And an admin email, which becomes platform admin on first sign-up.
 
 ## The three commands
 
