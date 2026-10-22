@@ -42,6 +42,6 @@ Self-host open source Kortix with one command:
 curl -fsSL https://kortix.com/install | bash
 ```
 
-Then run `kortix self-host init --domain app.example.com` and `kortix self-host start`. Self-hosting is free; the managed cloud starts at $40 per seat per month plus usage. The full guide is at [openclaw-alternative.com](https://openclaw-alternative.com).
+Then run `kortix self-host init --domain app.example.com` and `kortix self-host start`. Self-hosting is free; the managed cloud starts on a free plan with 500 credits a month, then paid credits at 100 per dollar, with unlimited members and no per-seat charge. The full guide is at [openclaw-alternative.com](https://openclaw-alternative.com).
 
 Two newer pages go deeper on the field: [OpenClaw vs ZeroClaw](https://openclaw-alternative.com/openclaw-vs-zeroclaw) compares the two open source runtimes on autonomy, isolation and who reviews the work.
